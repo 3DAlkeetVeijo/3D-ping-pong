@@ -142,7 +142,6 @@
 <packages>
 <package name="SOIC8">
 <description>&lt;B&gt;Wide Plastic Gull Wing Small Outline Package&lt;/B&gt;</description>
-<circle x="-1.42" y="-1.115" radius="0.5" width="0.0508" layer="21"/>
 <wire x1="-2.6" y1="2.25" x2="-2.35" y2="2.5" width="0.1524" layer="21" curve="-90" cap="flat"/>
 <wire x1="2.35" y1="2.5" x2="2.6" y2="2.25" width="0.1524" layer="21" curve="-90"/>
 <wire x1="2.35" y1="-2.5" x2="2.6" y2="-2.25" width="0.1524" layer="21" curve="90" cap="flat"/>
@@ -161,6 +160,17 @@
 <wire x1="-2.21" y1="-2.5" x2="-2.34" y2="-2.5" width="0.1524" layer="21"/>
 <wire x1="-2.6" y1="2.25" x2="-2.6" y2="-2.24" width="0.1524" layer="21"/>
 <wire x1="2.6" y1="-2.25" x2="2.6" y2="2.25" width="0.1524" layer="21"/>
+<circle x="-1.42" y="-1.115" radius="0.5" width="0.0508" layer="21"/>
+<smd name="1" x="-1.905" y="-3.154" dx="0.5" dy="2.2" layer="1"/>
+<smd name="2" x="-0.645" y="-3.154" dx="0.5" dy="2.2" layer="1"/>
+<smd name="3" x="0.625" y="-3.154" dx="0.5" dy="2.2" layer="1"/>
+<smd name="4" x="1.895" y="-3.154" dx="0.5" dy="2.2" layer="1"/>
+<smd name="8" x="-1.905" y="3.154" dx="0.5" dy="2.2" layer="1"/>
+<smd name="7" x="-0.635" y="3.154" dx="0.5" dy="2.2" layer="1"/>
+<smd name="6" x="0.635" y="3.154" dx="0.5" dy="2.2" layer="1"/>
+<smd name="5" x="1.905" y="3.154" dx="0.5" dy="2.2" layer="1"/>
+<text x="-2.8575" y="-2.159" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.064" y="-2.159" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 <rectangle x1="-2.08" y1="2.5" x2="-1.73" y2="3.4" layer="51"/>
 <rectangle x1="-0.81" y1="2.5" x2="-0.46" y2="3.4" layer="51"/>
 <rectangle x1="0.46" y1="2.5" x2="0.81" y2="3.4" layer="51"/>
@@ -169,16 +179,6 @@
 <rectangle x1="0.45" y1="-3.4" x2="0.8" y2="-2.5" layer="51"/>
 <rectangle x1="-0.82" y1="-3.4" x2="-0.47" y2="-2.5" layer="51"/>
 <rectangle x1="-2.08" y1="-3.4" x2="-1.73" y2="-2.5" layer="51"/>
-<smd name="1" x="-1.905" y="-3.154" dx="0.5" dy="2.2" layer="1"/>
-<smd name="2" x="-0.645" y="-3.154" dx="0.5" dy="2.2" layer="1"/>
-<smd name="3" x="0.625" y="-3.154" dx="0.5" dy="2.2" layer="1"/>
-<smd name="4" x="1.895" y="-3.154" dx="0.5" dy="2.2" layer="1"/>
-<smd name="5" x="1.905" y="3.154" dx="0.5" dy="2.2" layer="1"/>
-<smd name="6" x="0.635" y="3.154" dx="0.5" dy="2.2" layer="1"/>
-<smd name="7" x="-0.635" y="3.154" dx="0.5" dy="2.2" layer="1"/>
-<smd name="8" x="-1.905" y="3.154" dx="0.5" dy="2.2" layer="1"/>
-<text x="-2.8575" y="-2.159" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="4.064" y="-2.159" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 </package>
 <package name="C1206FAB">
 <wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.127" layer="21"/>
@@ -202,13 +202,6 @@
 </package>
 <package name="6MM_SWITCH">
 <description>&lt;b&gt;OMRON SWITCH&lt;/b&gt;</description>
-<circle x="0" y="0" radius="1.778" width="0.1524" layer="21"/>
-<circle x="-2.159" y="-2.159" radius="0.508" width="0.1524" layer="51"/>
-<circle x="2.159" y="-2.032" radius="0.508" width="0.1524" layer="51"/>
-<circle x="2.159" y="2.159" radius="0.508" width="0.1524" layer="51"/>
-<circle x="-2.159" y="2.159" radius="0.508" width="0.1524" layer="51"/>
-<circle x="0" y="0" radius="0.635" width="0.0508" layer="51"/>
-<circle x="0" y="0" radius="0.254" width="0.1524" layer="21"/>
 <wire x1="3.302" y1="-0.762" x2="3.048" y2="-0.762" width="0.1524" layer="21"/>
 <wire x1="3.302" y1="-0.762" x2="3.302" y2="0.762" width="0.1524" layer="21"/>
 <wire x1="3.048" y1="0.762" x2="3.302" y2="0.762" width="0.1524" layer="21"/>
@@ -252,6 +245,13 @@
 <wire x1="-2.413" y1="1.27" x2="-2.413" y2="0.508" width="0.1524" layer="51"/>
 <wire x1="-2.413" y1="-0.508" x2="-2.413" y2="-1.27" width="0.1524" layer="51"/>
 <wire x1="-2.413" y1="0.508" x2="-2.159" y2="-0.381" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="1.778" width="0.1524" layer="21"/>
+<circle x="-2.159" y="-2.159" radius="0.508" width="0.1524" layer="51"/>
+<circle x="2.159" y="-2.032" radius="0.508" width="0.1524" layer="51"/>
+<circle x="2.159" y="2.159" radius="0.508" width="0.1524" layer="51"/>
+<circle x="-2.159" y="2.159" radius="0.508" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="0.635" width="0.0508" layer="51"/>
+<circle x="0" y="0" radius="0.254" width="0.1524" layer="21"/>
 <smd name="1" x="-3.302" y="2.286" dx="2.286" dy="1.524" layer="1"/>
 <smd name="2" x="3.302" y="2.286" dx="2.286" dy="1.524" layer="1"/>
 <smd name="3" x="-3.302" y="-2.286" dx="2.286" dy="1.524" layer="1"/>
@@ -271,13 +271,13 @@
 <wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
 <wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
-<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
-<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 <smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
 <smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
 <text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
 <package name="R1206">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
@@ -287,13 +287,13 @@
 <wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<smd name="2" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<smd name="1" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.6891" y1="-0.8763" x2="-0.9525" y2="0.8763" layer="51"/>
 <rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
 <rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
-<smd name="1" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
-<smd name="2" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="R1206W">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
@@ -304,13 +304,13 @@ wave soldering</description>
 <wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<rectangle x1="-1.651" y1="-0.8763" x2="-0.9009" y2="0.8738" layer="51"/>
-<rectangle x1="0.889" y1="-0.8763" x2="1.6391" y2="0.8738" layer="51"/>
-<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
 <smd name="1" x="-1.499" y="0" dx="1.8" dy="1.2" layer="1"/>
 <smd name="2" x="1.499" y="0" dx="1.8" dy="1.2" layer="1"/>
 <text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-0.8763" x2="-0.9009" y2="0.8738" layer="51"/>
+<rectangle x1="0.889" y1="-0.8763" x2="1.6391" y2="0.8738" layer="51"/>
+<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
 </package>
 </packages>
 <symbols>
@@ -320,13 +320,13 @@ wave soldering</description>
 <wire x1="-2.54" y1="17.78" x2="-27.94" y2="17.78" width="0.254" layer="94"/>
 <wire x1="-27.94" y1="-7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
 <pin name="GND" x="-33.02" y="12.7" length="middle"/>
-<pin name="IN1" x="-33.02" y="2.54" length="middle"/>
 <pin name="IN2" x="-33.02" y="7.62" length="middle"/>
-<pin name="LSS" x="2.54" y="7.62" length="middle" rot="R180"/>
-<pin name="OUT1" x="2.54" y="2.54" length="middle" rot="R180"/>
-<pin name="OUT2" x="2.54" y="12.7" length="middle" rot="R180"/>
-<pin name="VBB" x="2.54" y="-2.54" length="middle" rot="R180"/>
+<pin name="IN1" x="-33.02" y="2.54" length="middle"/>
 <pin name="VREF" x="-33.02" y="-2.54" length="middle"/>
+<pin name="VBB" x="2.54" y="-2.54" length="middle" rot="R180"/>
+<pin name="OUT1" x="2.54" y="2.54" length="middle" rot="R180"/>
+<pin name="LSS" x="2.54" y="7.62" length="middle" rot="R180"/>
+<pin name="OUT2" x="2.54" y="12.7" length="middle" rot="R180"/>
 </symbol>
 <symbol name="CAP-NONPOLARIZED">
 <description>non-polarized capacitor</description>
@@ -336,10 +336,10 @@ wave soldering</description>
 <wire x1="-0.762" y1="0" x2="-0.762" y2="-1.524" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-1.778" y2="0" width="0.1524" layer="94"/>
 <wire x1="-0.762" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="2" x="2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <text x="-3.81" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 <text x="-3.81" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 <symbol name="R-US">
 <wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
@@ -351,14 +351,12 @@ wave soldering</description>
 <wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.2032" layer="94"/>
 <wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
 <wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 <symbol name="TS2">
-<circle x="0" y="-2.54" radius="0.127" width="0.4064" layer="94"/>
-<circle x="0" y="2.54" radius="0.127" width="0.4064" layer="94"/>
 <wire x1="0" y1="1.905" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="-4.445" y1="1.905" x2="-3.175" y2="1.905" width="0.254" layer="94"/>
 <wire x1="-4.445" y1="-1.905" x2="-3.175" y2="-1.905" width="0.254" layer="94"/>
@@ -370,12 +368,14 @@ wave soldering</description>
 <wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="0" y1="-2.54" x2="-1.27" y2="1.905" width="0.254" layer="94"/>
-<pin name="P" x="0" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="2" rot="R90"/>
-<pin name="P1" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="2" rot="R90"/>
-<pin name="S" x="0" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="S1" x="2.54" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<circle x="0" y="-2.54" radius="0.127" width="0.4064" layer="94"/>
+<circle x="0" y="2.54" radius="0.127" width="0.4064" layer="94"/>
 <text x="-6.35" y="-2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
 <text x="-3.81" y="3.175" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="P" x="0" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="2" rot="R90"/>
+<pin name="S" x="0" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="S1" x="2.54" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="P1" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="2" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -443,7 +443,7 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <technology name=""/>
 </technologies>
 </device>
-<device name="1206FAB" package="R1206FAB">
+<device name="1206W" package="R1206W">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -452,7 +452,7 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <technology name=""/>
 </technologies>
 </device>
-<device name="1206W" package="R1206W">
+<device name="1206FAB" package="R1206FAB">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -505,8 +505,8 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<pad name="1" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-1.27" y="0" drill="1.016" shape="square" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="1.016" shape="square" rot="R90"/>
 <text x="-2.6162" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
@@ -563,10 +563,10 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <wire x1="3.175" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="2.54" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="4.445" y1="-1.27" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="4" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-3.81" y="0" drill="1.016" shape="square" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1.016" shape="square" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="1.016" shape="square" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1.016" shape="square" rot="R90"/>
 <text x="-5.1562" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
@@ -618,7 +618,7 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" shape="octagon"/>
+<pad name="1" x="0" y="0" drill="1.016" shape="square"/>
 <text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
@@ -893,18 +893,18 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <part name="S3" library="fab" deviceset="6MM_SWITCH" device="6MM_SWITCH"/>
 <part name="R2" library="fab" deviceset="RES-US" device="1206FAB" value="10k"/>
 <part name="R5" library="fab" deviceset="RES-US" device="1206FAB" value="10k"/>
+<part name="J5V" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="JGND" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="JP3" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="J5V'" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="JGND'" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="JP1'" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="JP2'" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="JP3'" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="JP4" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="JP5" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="JP6" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="JP7" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="JP8" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="JP9" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="JP10" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="JP11" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="JP12" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="JP4'" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="S4" library="fab" deviceset="6MM_SWITCH" device="6MM_SWITCH"/>
 <part name="R3" library="fab" deviceset="RES-US" device="1206FAB" value="10k"/>
 </parts>
@@ -931,18 +931,18 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <instance part="S3" gate="2" x="269.24" y="55.88" rot="R270"/>
 <instance part="R2" gate="G$1" x="284.48" y="66.04"/>
 <instance part="R5" gate="G$1" x="284.48" y="53.34"/>
-<instance part="JP1" gate="G$1" x="203.2" y="83.82"/>
-<instance part="JP2" gate="G$1" x="203.2" y="73.66"/>
-<instance part="JP3" gate="G$1" x="203.2" y="63.5"/>
-<instance part="JP4" gate="G$1" x="203.2" y="53.34"/>
-<instance part="JP5" gate="G$1" x="203.2" y="43.18"/>
-<instance part="JP6" gate="G$1" x="213.36" y="83.82" rot="R180"/>
-<instance part="JP7" gate="G$1" x="213.36" y="73.66" rot="R180"/>
-<instance part="JP8" gate="G$1" x="213.36" y="63.5" rot="R180"/>
-<instance part="JP9" gate="G$1" x="213.36" y="53.34" rot="R180"/>
-<instance part="JP10" gate="G$1" x="213.36" y="43.18" rot="R180"/>
-<instance part="JP11" gate="G$1" x="203.2" y="33.02"/>
-<instance part="JP12" gate="G$1" x="213.36" y="33.02" rot="R180"/>
+<instance part="J5V" gate="G$1" x="203.2" y="83.82"/>
+<instance part="JGND" gate="G$1" x="203.2" y="73.66"/>
+<instance part="JP1" gate="G$1" x="203.2" y="63.5"/>
+<instance part="JP2" gate="G$1" x="203.2" y="53.34"/>
+<instance part="JP3" gate="G$1" x="203.2" y="43.18"/>
+<instance part="J5V'" gate="G$1" x="213.36" y="83.82" rot="R180"/>
+<instance part="JGND'" gate="G$1" x="213.36" y="73.66" rot="R180"/>
+<instance part="JP1'" gate="G$1" x="213.36" y="63.5" rot="R180"/>
+<instance part="JP2'" gate="G$1" x="213.36" y="53.34" rot="R180"/>
+<instance part="JP3'" gate="G$1" x="213.36" y="43.18" rot="R180"/>
+<instance part="JP4" gate="G$1" x="203.2" y="33.02"/>
+<instance part="JP4'" gate="G$1" x="213.36" y="33.02" rot="R180"/>
 <instance part="S4" gate="2" x="269.24" y="40.64" rot="R270"/>
 <instance part="R3" gate="G$1" x="284.48" y="38.1"/>
 </instances>
@@ -956,7 +956,7 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <pinref part="ARD" gate="G$1" pin="D4*"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="63.5" x2="200.66" y2="63.5" width="0.1524" layer="91"/>
 <label x="185.42" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -968,7 +968,7 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <pinref part="ARD" gate="G$1" pin="IO8"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="G$1" pin="1"/>
+<pinref part="JP2" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="53.34" x2="200.66" y2="53.34" width="0.1524" layer="91"/>
 <label x="185.42" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -980,7 +980,7 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <pinref part="ARD" gate="G$1" pin="IO12*"/>
 </segment>
 <segment>
-<pinref part="JP5" gate="G$1" pin="1"/>
+<pinref part="JP3" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="43.18" x2="200.66" y2="43.18" width="0.1524" layer="91"/>
 <label x="185.42" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -1007,7 +1007,7 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <label x="154.94" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="J5V" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="83.82" x2="200.66" y2="83.82" width="0.1524" layer="91"/>
 <label x="185.42" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -1101,7 +1101,7 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <wire x1="71.12" y1="78.74" x2="81.28" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="G$1" pin="1"/>
+<pinref part="JGND" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="73.66" x2="200.66" y2="73.66" width="0.1524" layer="91"/>
 <label x="185.42" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -1283,7 +1283,7 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <label x="256.54" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP6" gate="G$1" pin="1"/>
+<pinref part="J5V'" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="83.82" x2="231.14" y2="83.82" width="0.1524" layer="91"/>
 <label x="231.14" y="83.82" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -1300,7 +1300,7 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <label x="292.1" y="81.28" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP8" gate="G$1" pin="1"/>
+<pinref part="JP1'" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="63.5" x2="231.14" y2="63.5" width="0.1524" layer="91"/>
 <label x="231.14" y="63.5" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -1312,7 +1312,7 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <label x="292.1" y="68.58" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP9" gate="G$1" pin="1"/>
+<pinref part="JP2'" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="53.34" x2="231.14" y2="53.34" width="0.1524" layer="91"/>
 <label x="231.14" y="53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -1324,7 +1324,7 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <label x="292.1" y="55.88" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP10" gate="G$1" pin="1"/>
+<pinref part="JP3'" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="43.18" x2="231.14" y2="43.18" width="0.1524" layer="91"/>
 <label x="231.14" y="43.18" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -1346,7 +1346,7 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <label x="292.1" y="53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP7" gate="G$1" pin="1"/>
+<pinref part="JGND'" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="73.66" x2="231.14" y2="73.66" width="0.1524" layer="91"/>
 <label x="231.14" y="73.66" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -1358,7 +1358,7 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 </net>
 <net name="BUT4" class="0">
 <segment>
-<pinref part="JP11" gate="G$1" pin="1"/>
+<pinref part="JP4" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="33.02" x2="200.66" y2="33.02" width="0.1524" layer="91"/>
 <label x="185.42" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -1371,7 +1371,7 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <net name="BUT4'" class="0">
 <segment>
 <label x="231.14" y="33.02" size="1.778" layer="95" xref="yes"/>
-<pinref part="JP12" gate="G$1" pin="1"/>
+<pinref part="JP4'" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="33.02" x2="231.14" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1390,24 +1390,6 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="113,1,41.91,72.6355,C1,,,,,"/>
-<approved hash="113,1,41.91,65.0155,C2,,,,,"/>
-<approved hash="113,1,68.8171,43.3112,PIEZO,,,,,"/>
-<approved hash="113,1,198.12,22.4705,S1,,,,,"/>
-<approved hash="113,1,198.12,12.3105,S2,,,,,"/>
-<approved hash="113,1,198.12,4.69053,S3,,,,,"/>
-<approved hash="113,1,200.897,85.2212,JP1,,,,,"/>
-<approved hash="113,1,200.897,75.0612,JP2,,,,,"/>
-<approved hash="113,1,200.897,64.9012,JP3,,,,,"/>
-<approved hash="113,1,200.897,54.7412,JP4,,,,,"/>
-<approved hash="113,1,200.897,44.5812,JP5,,,,,"/>
-<approved hash="113,1,215.663,82.4188,JP6,,,,,"/>
-<approved hash="113,1,215.663,72.2588,JP7,,,,,"/>
-<approved hash="113,1,215.663,62.0988,JP8,,,,,"/>
-<approved hash="113,1,215.663,51.9388,JP9,,,,,"/>
-<approved hash="113,1,215.663,41.7788,JP10,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 </eagle>
